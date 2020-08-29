@@ -1,6 +1,6 @@
 <p align="center">
   <h3 align="center">Fail2ban Attack monitor</h3>
-  <p align="center">Fail2ban Attach Monitor allows you to see the source of the attacks that fail2ban blocks.</p>
+  <p align="center">Fail2ban Attack Monitor allows you to see the source of the attacks that fail2ban blocks.</p>
 
   <p align="center">
     <a href="https://twitter.com/bsd0x1">
