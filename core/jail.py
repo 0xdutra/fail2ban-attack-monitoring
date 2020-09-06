@@ -2,6 +2,8 @@ import re
 import subprocess
 import sys
 
+from core.log import Log
+
 class Jails:
 
     def __init__(self, jails = [], debug = False):
@@ -18,6 +20,8 @@ class Jails:
                                 stderr=subprocess.DEVNULL).decode('utf-8')
 
             jails_status.append(self.jail_ip_banned_list(exec_fail2ban))
+
+        print(jails_status)
 
         return jails_status
 
