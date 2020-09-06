@@ -81,3 +81,20 @@ python main.py
 ```
 0 */1 * * * root cd /root/fail2ban-attack-monitor/ && python3 main.py && echo $(date) >> /var/log/fail2ban-monitor-log.log
 ```
+
+<hr>
+
+## Grafana with wordmap panel
+
+### Query example
+
+![Imgur](https://imgur.com/HC2uS0W.png)
+
+### Wordmap example
+
+![Imgur](https://imgur.com/HDAhOyM.png)
+
+### Geohash field example
+
+![Imgur](https://imgur.com/eao33nF.png)
+
