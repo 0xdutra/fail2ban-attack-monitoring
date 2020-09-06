@@ -20,7 +20,7 @@
 
 ## Preview
 
-![preview](https://i.imgur.com/He5F0iR.png)
+![preview](https://i.imgur.com/5krXP0s.png)
 
 ## Tools used
 
