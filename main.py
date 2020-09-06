@@ -11,8 +11,11 @@ def main():
     fail2ban_jails = fail2ban_jails_info["jails"].split(',')
     jail_details = Jails(fail2ban_jails).get_jail_details()
 
-    firewall = Firewall(jail_details[0])
-    firewall.start_firewall()
+    firewall = Firewall()
+
+    for jaild in jail_details:
+        firewall.start_firewall(jaild)
+
 
 if __name__ == '__main__':
     main()
